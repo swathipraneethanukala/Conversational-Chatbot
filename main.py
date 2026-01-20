@@ -1,6 +1,6 @@
 from google import genai
 from flask import Flask,request,jsonify,render_template
-client = genai.Client(api_key="AIzaSyCVSNeUhi3dnFRH7YrBmnFFaBbmoo5v2Ec")
+client = genai.Client(api_key="your api key")
 app = Flask(__name__)
 @app.route('/')
 def home():
@@ -14,3 +14,4 @@ def chat():
     )
     return jsonify({"reply": response.text})
 app.run(port="8000")
+
