@@ -25,5 +25,4 @@ This chatbot provides intelligent, real-time responses through a clean and inter
 
 ---
 
-## 📂 Project Structure
 
